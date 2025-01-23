@@ -2,6 +2,12 @@
 
 read -p "file with adresses: " FILE
 
+function if_results() {
+	for file in ./*; do
+	  echo $file
+	done
+}
+
 function check_file() {
 	if [[ -z $FILE ]]; then
 	 echo "File name is empty!"
@@ -37,5 +43,20 @@ function scan_ip() {
 	fi
 }
 
+function if_results() {
+        for file in *; do
+          echo $file
+          if [[ $file == results.txt ]]; then
+            echo "File results has been found"
+            read -p "Delete file ?(y/n): " comand
+            if [[ $comand == 'y' ]]; then
+                echo "Deleteng results file..."
+                rm results.txt
+            fi
+          fi
+        done
+}
+
+if_results
 check_file || exit 1
 
