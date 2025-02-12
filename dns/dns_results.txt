@@ -1,0 +1,28 @@
+### www.ya.ru ###
+www.ya.ru is an alias for ya.ru.
+ya.ru has address 77.88.55.242
+ya.ru has address 77.88.44.242
+ya.ru has address 5.255.255.242
+ya.ru has IPv6 address 2a02:6b8::2:242
+ya.ru mail is handled by 10 mx.yandex.ru.
+### vpn.ya.ru ###
+vpn.ya.ru is an alias for any.yandex.ru.
+any.yandex.ru has address 213.180.204.242
+any.yandex.ru has IPv6 address 2a02:6b8::242
+any.yandex.ru mail is handled by 0 not-for-mail.yandex.net.
+### stage.ya.ru ###
+stage.ya.ru is an alias for any.yandex.ru.
+any.yandex.ru has address 213.180.204.242
+any.yandex.ru has IPv6 address 2a02:6b8::242
+any.yandex.ru mail is handled by 0 not-for-mail.yandex.net.
+### mail.ya.ru ###
+mail.ya.ru has address 77.88.21.37
+mail.ya.ru has IPv6 address 2a02:6b8::a4
+mail.ya.ru mail is handled by 0 mx.yandex.ru.
+### dev.ya.ru ###
+
+### ftp.ya.ru ###
+ftp.ya.ru is an alias for any.yandex.ru.
+any.yandex.ru has address 213.180.204.242
+any.yandex.ru has IPv6 address 2a02:6b8::242
+any.yandex.ru mail is handled by 0 not-for-mail.yandex.net.

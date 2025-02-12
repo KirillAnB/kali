@@ -1,0 +1,6 @@
+www
+vpn
+stage
+mail
+dev
+ftp

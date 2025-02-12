@@ -60,3 +60,20 @@ function if_results() {
 if_results
 check_file || exit 1
 
+cat << _eof_ > scan_results.html
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>DNS Brute-Force Results</title>
+    </head>
+    <body>
+        <h1>DNS Brute-Force Results for $domain_name</h1>
+        <pre>
+$(cat results.txt)
+        </pre>
+    </body>
+</html>
+_eof_
+
+firefox scan_results.html
+
