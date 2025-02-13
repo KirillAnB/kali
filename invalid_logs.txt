@@ -1,5 +1,0 @@
-Invalid input:
-line 2
-lin 3
-line 4
-line 5 
