@@ -1,14 +1,19 @@
 #!/bin/bash +x
 
 
-echo "Checking how many args we have..."
-
-count=0
-
-while [[ $# -gt 0 ]]; do
-	count=$((count + 1))
-	stat "$1"
-	shift
+echo "Starting..."
+sleep 1
+while true; do
+	read -p "Enter a file name: " file_name
+	if [[ -z $file_name ]]; then
+		echo 'Enter file name pls: '
+		continue
+	elif [[ -f $file_name ]]; then
+	echo "File is found"
+	break
+	else
+	echo "file was not found"
+	break
+fi
 done
-
 
