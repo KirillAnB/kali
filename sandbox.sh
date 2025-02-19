@@ -1,18 +1,15 @@
-#!/bin/bash +x
+#!/bin/bash
 
 
-read -p "Enter a word: " word
+read -p "Enter an ip: " ip
 
-first_low="${word,}"
-all_low="${word,,}"
-first_capital="${word^}"
-all_capital="${word^^}"
+echo "$ip"
 
-echo "original word is: $word
-      all low: $all_low
-      first low: $first_low
-      first capital $first_capital
-      all capital: $all_capital"
-
-
+IFS="."
+count=1
+for oct in $ip; do
+	echo "octet $count"
+	echo $oct
+	count=$(($count+1))
+done
 
