@@ -4,7 +4,7 @@
 read -p "Enter an ip: " ip
 
 echo "$ip"
-
+#comment 2
 IFS="."
 count=1
 for oct in $ip; do
